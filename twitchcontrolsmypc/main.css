@@ -1,0 +1,26 @@
+
+body {
+  background-color: black;
+}
+
+.embed {
+  margin: 0 auto;
+  padding: 0;
+  font-style: normal;
+  line-height: 1.2;
+  width: 100%;
+  height: calc(27.2vw);
+}
+
+/* separate all windows by 10px */
+div.window-container > div.window:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
