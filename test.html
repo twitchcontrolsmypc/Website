@@ -1,4 +1,15 @@
-// Get the YouTube channel ID
+
+<html>
+  <head>
+    <title>YouTube Latest Video</title>
+  </head>
+  <body>
+    <h1>Latest Video from YouTube Channel</h1>
+
+    <iframe id="youtube-iframe" width="560" height="315" src=""></iframe>
+
+    <script>
+      // Get the YouTube channel ID
 const channelId = "UC-PyzSiuCqyzCMqEdzpw61Q";
 
 // This function will be called whenever the iframe needs to be updated
@@ -18,3 +29,7 @@ function updateIframe() {
 
 // Update the iframe every 5 minutes
 setInterval(updateIframe, 1000 * 60 * 5);
+
+    </script>
+  </body>
+</html>
